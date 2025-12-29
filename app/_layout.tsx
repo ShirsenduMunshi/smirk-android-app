@@ -3,7 +3,7 @@ import { Stack } from "expo-router";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 
 
-const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
+const convex = new ConvexReactClient('https://perceptive-chipmunk-737.convex.cloud', {
   unsavedChangesWarning: false,
 });
 
